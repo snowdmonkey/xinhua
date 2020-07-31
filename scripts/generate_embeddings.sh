@@ -1,0 +1,16 @@
+DGLBACKEND=pytorch dglke_train \
+  --model_name DistMult \
+  --data_path ../data \
+  --dataset book \
+  --format raw_udd_hrt \
+  --data_files triplets.txt \
+  --batch_size 1000 \
+  --neg_sample_size 200 \
+  --hidden_dim 512 \
+  --lr 0.25 \
+  --max_step 1000 \
+  --log_interval 100 \
+  -adv \
+  --regularization_coef 1.00E-09 \
+  --num_thread 1 \
+  --num_proc 4
