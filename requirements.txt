@@ -2,6 +2,6 @@ gremlinpython==3.4.7
 neo4j==4.0.0
 elasticsearch==7.8.0
 fastapi==0.58.1
-pydantic==1.5.1
+pydantic==1.6.2
 numpy==1.19.0
 faiss==1.5.3
